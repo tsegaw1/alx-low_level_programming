@@ -9,8 +9,7 @@ int main(void)
 	char h[] = "main.h";
 	int s = sizeof(h);
 	int i;
-
-	for (i = 0; i < s; i++)
+        for (i = 0; i < s; i++)
 	{
 		_putchar(h[i]);
 	}
