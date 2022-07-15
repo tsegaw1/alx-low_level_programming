@@ -6,9 +6,9 @@
  * @dest: first param
  * @src: second param
  * @n: 3rd param
- * return: string
+ * Return: string
  */
-char *_strncat(char *dest, char *stc, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	strncat(dest, src, n);
 	return (dest);
