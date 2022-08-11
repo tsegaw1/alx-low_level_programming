@@ -1,9 +1,9 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
-#include<string.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <stdio.h>
+#ifndef _LISTS_H_
+#define _LISTS_H_
+
+#include <stddef.h>
+
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
